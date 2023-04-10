@@ -80,7 +80,7 @@ const Home = () => {
                 keyExtractor={item => item._id}
                 showsVerticalScrollIndicator={false}
                 horizontal={false}
-                refeshing={refeshing}
+                refreshing={refeshing}
                 onRefresh={onRefresh}
             />
             {/* <ScrollView

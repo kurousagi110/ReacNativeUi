@@ -29,7 +29,7 @@ export const UserProvider = (props) => {
                 email: email,
                 password: password
             }
-            const response = await AxiosInstance().post('/auth/login', body);
+            const response = await AxiosInstance().post('/users/login', body);
             console.log('login', response);
             //đọc token
             const {token} = response.data;
